@@ -8,10 +8,10 @@ try
     if gruppenalter([23, 33, 43]) == mean([23, 33, 43])
         fprintf('\t1) gruppenalter :\t\tcorrect\n');
     else
-        fprintf('\t1)gruppenalter:\t\twrong\n');
+        fprintf('\t1)gruppenalter:\t\t\twrong\n');
     end
 catch
-    fprintf('\t1) gruppenalter:\t\twrong\n');
+    fprintf('\t1) gruppenalter:\t\t\twrong\n');
 end
 
 %% Problem 2
@@ -61,10 +61,10 @@ try
     if testzahl == 21
         fprintf('\t5) fibonacci:\t\t\tcorrect\n');
     else
-        fprintf('\t5) fibonacci:\t\\twrong\n');
+        fprintf('\t5) fibonacci:\t\t\twrong\n');
     end
 catch
-    fprintf('\5) fibonacci:\t\twrong\n');
+    fprintf('\5) fibonacci:\t\t\twrong\n');
 end
 
 %% Problem 6
@@ -112,7 +112,7 @@ try
     if strcmp(keyword, 'MerryLockd0wn')
         fprintf('\t9) ObjectDetection:\t\tcorrect\n');
     else
-        fprintf('\9) tObjectDetection:\t\twrong\n');
+        fprintf('\t9) ObjectDetection:\t\twrong\n');
     end
 catch
     fprintf('\t9) ObjectDetection:\t\twrong\n');
