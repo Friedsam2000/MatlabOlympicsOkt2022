@@ -20,8 +20,16 @@ function weltmeister = weltmeisterschaft()
     % Achte auf die Größe und das Format dieser Variable! 
     % Der Rest des Codes wird euch helfen, die Übung richtig auszuführen.
     % Tipp: Suche bei Google nach der Bedeutung der Funktion randperm
-    
-    roundof16 = [];
+     
+    roundof16 = cell(8,2);
+    roundof16(1,:) = groupA(randperm(4,2));
+    roundof16(2,:) = groupB(randperm(4,2));
+    roundof16(3,:) = groupC(randperm(4,2));
+    roundof16(4,:) = groupD(randperm(4,2));
+    roundof16(5,:) = groupE(randperm(4,2));
+    roundof16(6,:) = groupF(randperm(4,2));
+    roundof16(7,:) = groupG(randperm(4,2));
+    roundof16(8,:) = groupH(randperm(4,2));
     
     %%%%%%%%%%%%%%%%%%%%%%%%
     
