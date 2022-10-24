@@ -1,4 +1,4 @@
-function weltmeister = weltmeisterschaft()
+function [weltmeister, semifinals] = weltmeisterschaft()
     % Dieses Skript wurde auf der Basis des offiziellen Spielplans erstellt: 
     % https://digitalhub.fifa.com/m/464f16f856f5ed05/original/FIFA-World-Cup-Qatar-2022-Match-Schedule.pdf
     
