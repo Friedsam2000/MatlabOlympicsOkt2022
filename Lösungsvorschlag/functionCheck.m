@@ -56,9 +56,9 @@ end
 
 %% Problem 5
 try
-    ergebnis = taylorseries(13);
+    ergebnis = taylorseries(3);
     
-    if ergebnis == 39
+    if ergebnis == 13
         fprintf('\t5) taylorseries:\t\tcorrect\n');
     else
         fprintf('\t5) taylorseries:\t\twrong\n');
