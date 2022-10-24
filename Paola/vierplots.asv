@@ -22,10 +22,12 @@ function vierplots()
     subplot(2,2,3);
     plot(x_c,y_c,'b.-'), grid on, title('(c)')
 
-    % TODO
-    x_d = [];
-    y_d = [];
-    %
+    subplot(2,2,4);
+    x1 = 1:20; % left
+    x2 = x1 + 10; % right
+    x_4(1:2:40) = x1; % insert the left x_s (odd)
+    x_4(2:2:40) = x2; % insert the right x_s (even)
+    y_4 = 1:40;
     subplot(2,2,4);
     plot(x_d,y_d,'b.-'), grid on, title('(d)')
 
