@@ -8,10 +8,10 @@ try
     if gruppenalter([23, 33, 43]) == mean([23, 33, 43])
         fprintf('\t1) gruppenalter :\t\tcorrect\n');
     else
-        fprintf('\t1)gruppenalter:\t\t\twrong\n');
+        fprintf('\t1) gruppenalter:\t\twrong\n');
     end
 catch
-    fprintf('\t1) gruppenalter:\t\t\twrong\n');
+    fprintf('\t1) gruppenalter:\t\twrong\n');
 end
 
 %% Problem 2
@@ -56,27 +56,31 @@ end
 
 %% Problem 5
 try
-    testzahl = berechneFibonacci(8);
+    ergebnis = taylorseries(13);
     
-    if testzahl == 21
-        fprintf('\t5) fibonacci:\t\t\tcorrect\n');
+    if ergebnis == 39
+        fprintf('\t5) taylorseries:\t\tcorrect\n');
     else
-        fprintf('\t5) fibonacci:\t\t\twrong\n');
+        fprintf('\t5) taylorseries:\t\twrong\n');
     end
 catch
-    fprintf('\5) fibonacci:\t\t\twrong\n');
+    fprintf('\t5) taylorseries:\t\twrong\n');
 end
 
 %% Problem 6
 try
-    scrambled = Buchstabensalat('CultureOfExcellence');
-    if ~strcmp(scrambled, 'CultureOfExcellence') && strcmp(sort(scrambled), sort('CultureOfExcellence'))
-        fprintf('\t6) Buchstabensalat:\t\tcorrect\n');
-    else
-        fprintf('\t6) Buchstabensalat:\t\twrong\n');
-    end
+    [weltmeister,semifinals] = weltmeisterschaft;
+    
+    size_of_semifinals = size(semifinals);
+    
+   if ischar(weltmeister{1}) && ischar(semifinals{4}) && size_of_semifinals(1) == 4 && size_of_semifinals(2) == 1
+       fprintf('\t6) Weltmeisterschaft:\t\tcorrect\n');
+   else
+      fprintf('\t6) Weltmeisterschaft:\t\twrong\n');
+   end
+  
 catch
-    fprintf('\t6 Buchstabensalat:\t\twrong\n');
+      fprintf('\t6) Weltmeisterschaft:\t\twrong\n');
 end
 
 
@@ -97,10 +101,10 @@ catch
     fprintf('\t7) MonteCarlo:\t\t\twrong\n');
 end
 
-%% Problem 8 (Weihnachtsbaum)
+%% Problem 8 (vierplots)
 
 
-fprintf('\t8) Weihnachtsbaum:\t\trichtig nur wenn ein schöner weihnachtsbaum erscheint :) \n');
+fprintf('\t8) Vier Plots: \t\t\trichtig wenn plots identisch aussehen \n');
 
 
 
@@ -112,7 +116,7 @@ try
     if strcmp(keyword, 'MerryLockd0wn')
         fprintf('\t9) ObjectDetection:\t\tcorrect\n');
     else
-        fprintf('\t9) ObjectDetection:\t\twrong\n');
+        fprintf('\9) tObjectDetection:\t\twrong\n');
     end
 catch
     fprintf('\t9) ObjectDetection:\t\twrong\n');
