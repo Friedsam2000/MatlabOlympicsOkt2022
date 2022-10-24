@@ -104,7 +104,7 @@ end
 %% Problem 8 (vierplots)
 
 
-fprintf('\t8) Vier Plots: \t\t\trichtig wenn plots identisch aussehen \n');
+fprintf('\t8) Vier Plots: \t\t\trichtig NUR WENN plots identisch aussehen \n');
 
 
 
@@ -116,7 +116,7 @@ try
     if strcmp(keyword, 'MerryLockd0wn')
         fprintf('\t9) ObjectDetection:\t\tcorrect\n');
     else
-        fprintf('\9) tObjectDetection:\t\twrong\n');
+        fprintf('\t9) tObjectDetection:\t\twrong\n');
     end
 catch
     fprintf('\t9) ObjectDetection:\t\twrong\n');

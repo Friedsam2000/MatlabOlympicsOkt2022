@@ -13,6 +13,9 @@ function [weltmeister,semifinals] = weltmeisterschaft()
     groupG = {'Brasilien','Serbien','Schweiz','Kamerun'};
     groupH = {'Portugal','Ghana','Uruguay','Südkorea'};
     
+    
+    
+    
     %%%%%%%%%%%%%%%%%%%%%%%%% 
     % TODO
     % MATLAB soll aus jeder Gruppe zufällig 2 Nationalmannschaften auswählen 
@@ -21,11 +24,19 @@ function [weltmeister,semifinals] = weltmeisterschaft()
     % Der Rest des Codes wird euch helfen, die Übung richtig auszuführen.
     % Tipp: Suche bei Google nach der Bedeutung der Funktion randperm
     
-    roundof16 = [];
+    roundof16 = cell(8,2);
+
+%     roundof16(1,:) = ...
+%     roundof16(2,:) = ...
+%     roundof16(3,:) = ...
+%     ...
     
-    %%%%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%%% TODO ENDE
     
-    % Erstellung einer Variable mit den beiden Teams, die an jedem Spiel 
+    
+    
+    %%% Der Rest des Skripts braucht nicht zu verändert werden
+   % Erstellung einer Variable mit den beiden Teams, die an jedem Spiel 
     % der Achtelfinale teilnehmen
     match49 =[roundof16(1,1),roundof16(2,2)];
     match50 =[roundof16(3,1),roundof16(4,2)];
