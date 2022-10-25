@@ -1,0 +1,15 @@
+Hallo :)
+
+wir hoffen, du hattest eine gute Zeit bei der Veranstaltung! Der letzte Schritt ist nun, deine MATLAB Goodie abzuholen. 
+Welche Goodie du bekommst, hängt von dem Ergebnis ab, das dein Team erzielt hat.
+
+Die Verteilung findet am 27.10. von 18:00 bis 20:00 Uhr im Seminarraum 3618 des Lehrstuhls FSD (Flugsystemdynamik) statt.
+
+Dieses Zimmer befindet sich im Gebäude Maschinenwesen, Hof 6, 3. Stock. 
+Dieser Link kann dir helfen, den Raum zu finden: https://www.fsd.ed.tum.de/team/facilities-floor-plan/
+
+Die Lösung wird in ein paar Tagen in der Community veröffentlicht werden:
+https://mathworks.force.com/MATLABAmbassadorCommunity/s/group/0F93q000000ELo4CAG/technische-universit%C3%A4t-m%C3%BCnchen
+Login: ab12xyz@matlab.rbg.tum.de (ab12xyz = TUM-Kennung)
+
+Wenn du Fragen hast, kontaktiere uns bitte unter matlab.fsd@ed.tum.de
