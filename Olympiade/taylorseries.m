@@ -1,5 +1,5 @@
-function n = taylorseries(x)
+function requiredTerms = taylorseries(x)
 
-n = [];
+requiredTerms = [];
 
 end

@@ -1,11 +1,11 @@
-function n = taylorseries(x)
+function requiredTerms = taylorseries(x)
     ex = 0;
     error = abs(exp(x) - ex);
     
-    n = -1; 
+    requiredTerms = -1; 
     while error > 0.001
-        n = n + 1;
-        ex = ex + (x^n)/factorial(n);
+        requiredTerms = requiredTerms + 1;
+        ex = ex + (x^requiredTerms)/factorial(requiredTerms);
         error = abs(exp(x) - ex);
     end
 
